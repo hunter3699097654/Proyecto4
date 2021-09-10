@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Cuestionario Online de Solicitud</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="web.css">
+    </head>
+    <body>
+      
+        <div class="uno">
+            <p><center><b>Rellene el Cuestionario de Solicitud</b><center><p>
+        
+        
+        
+        <form>
+            <label>Usuar:</label>
+            <input type="text" placeholder="Nombre/Usuario" required="">
+            <br>
+            <label>Fecha:</label>
+            <input type="date" placeholder="Introduce la fecha" required="">
+            <br>
+            <label>Codio:</label>
+            <input type="number" placeholder="Introduce tu codigo" required="">
+            <br>
+             
+            <!-- email i yahoo movil i fijo-->
+            <label for="email1">Email</label><input type="radio" id="email1" name="contact" required="">
+            <label for="yahoo">Yahoo</label><input type="radio" id="yahoo" name="contact" required="">
+           
+            <input type="e-mail" placeholder="Introduce tu correo personal" required="">
+           
+            <br>
+            <input type="radio" id="number1" name="contact" required="">
+            <label for="number1">Movil:</label>
+            <input type="radio" id="number2" name="contact" required="">
+            <label for="number2">Fijo</label>
+            <input type="movil" placeholder="Introduce tu numero movil o fijo" required="">
+            <br>
+            <input type="range" id="rango1" placeholder="Rango" required="">
+            <label for="rango1">Range</label>
+            <br>
+            <input type="submit" name="Enviar" placeholder="Enviar" required="">
+            <br>
+            </form>
+        </div>
+           
+       
+        <div class="dos">
+            <select>
+                <h4>Completa los siguientes datos</h4>
+                <option value="Email">Email</option>&gt;
+                <option value="telefono">Telefono</option>
+                <option value="fecha">Fecha</option>
+                <option value="codigo">Codigo</option>
+                <option value="correo">Correo Personal</option>
+                <option value="Nombre de usuario">Nombre de usuario</option>
+                <option value="rango">Rango</option>
+                <option value="otras opciones">Otras opciones</option>
+            </select>
+        </div>
+        <div class="tres">
+            <input type="textarea" name="textarea" placeholder="Observaciones.."> 
+        </div>    
+        
+
+        
+        <script src="" async defer></script>
+    </body>
+</html>

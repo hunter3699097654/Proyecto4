@@ -1,0 +1,54 @@
+/*
+.uno:hover {
+    height: 100px;
+    margin: 150px;
+    border-radius: 350px; 
+    background-color: rgb(115, 255, 0); 
+    width: 500px;
+    font-size: initial;
+    font-family: sans-serif;
+    transition: 1s;
+    transition-delay: 1s;
+    transition-timing-function: ease-out;
+    opacity: 5;
+
+}
+*/
+
+
+
+
+.uno {
+    color: rgb(34, 0, 128);
+    background: yellowgreen;
+    height: 450px;
+    width: 500px;
+    transition: 1s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;
+    opacity: 7;
+    
+}
+.dos {
+    color: rgb(34, 0, 128);
+    background: yellowgreen;
+    height: 450px;
+    width: 500px;
+    transition: 1s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;
+    opacity: 7;
+    
+}
+
+.tres {
+    color: rgb(34, 0, 128);
+    background: yellowgreen;
+    width: 500px;
+    height: 65px;
+    transition: 1s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;
+    opacity: 7;
+    
+}
